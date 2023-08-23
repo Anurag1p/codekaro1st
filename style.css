@@ -1,0 +1,275 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main_head {
+  display: flex;
+}
+center {
+  background-color: whitesmoke;
+  padding: 30px;
+  border: 2px dotted violet;
+}
+
+/* header css  */
+.logo {
+  height: 80px;
+  width: 20%;
+  margin-bottom: 10px;
+}
+.header {
+  text-align: center;
+  padding-top: 30px;
+  width: 80%;
+}
+
+.nav_ul {
+  display: flex;
+  justify-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+li > a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  background: rgb(49, 182, 226);
+  border-radius: 10px;
+}
+li > a:hover {
+  background: rgb(23, 108, 136);
+
+  cursor: pointer;
+}
+
+/* Container css  */
+.container {
+  border: 1px solid grey;
+  background-color: #fff;
+  margin: 30px 100px;
+  border: none;
+  padding: 50px;
+}
+
+/* Css for Business Developement Card  */
+
+.wrapper {
+  height: 350px;
+  width: 500px;
+  background-color: rgb(47, 255, 127);
+  padding: 70px 25px;
+  margin: 100px auto;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+.wrapper:hover {
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
+
+h1 {
+  margin-bottom: 15px;
+  margin-right: 200px;
+}
+p {
+  margin-bottom: 30px;
+}
+
+.share_btn {
+  padding: 10px 25px;
+  background: white;
+  border: none;
+  border-radius: 40px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.2ms;
+}
+.share_btn:hover {
+  background-color: whitesmoke;
+}
+
+/* Second Image of Assignment  */
+
+.second_main {
+  height: 320px;
+  width: 500px;
+  margin: 100px auto;
+  border: 2px solid #f2f2f2;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+.second_main:hover {
+  background-color: #f2f2f2;
+  color: black;
+}
+.profile {
+  padding: 30px;
+}
+.profile_img {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  /* justify-content: space-evenly; */
+  gap: 50px;
+}
+.profile_img > img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.tagline {
+  color: grey;
+  margin-right: 80px;
+  padding: 20px 0;
+}
+.extend {
+  border-top: 1px solid #f2f2f2;
+  padding: 20px;
+}
+.extend > span {
+  color: rgb(49, 111, 226);
+  cursor: pointer;
+}
+
+/* Third one  */
+.google {
+  height: 580px;
+  width: 500px;
+  margin: 20px auto;
+  border: 2px solid #f2f2f2;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+.google:hover {
+  background-color: rgb(7, 117, 136);
+  color: white;
+  border: 2px solid white;
+}
+.google_photos {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  padding: 0 30px;
+  color: grey;
+  letter-spacing: 1px;
+}
+.lock {
+  width: 20px;
+  height: 18px;
+  margin: 0 10px;
+}
+.subContent {
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.text {
+  color: grey;
+  margin: 15px 0;
+  line-height: 25px;
+}
+.plan_heading {
+  padding-right: 20px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.581);
+}
+.subContent > .google_btn {
+  padding: 10px 40px;
+  background-color: white;
+  border: 1px solid rgb(151, 143, 143);
+  border-radius: 5px;
+  font-weight: 700;
+  color: rgb(3, 112, 222);
+}
+
+/* Last and final image */
+.flodesk {
+  /* border: 1px solid grey; */
+  height: 450px;
+  width: 500px;
+  margin: 100px auto;
+  text-align: center;
+  transition: 0.2s;
+  padding: 10px;
+  border-radius: 10px;
+}
+.flodesk:hover {
+  background-color: #ccdbfd;
+  /* background-color: rgb(166, 22, 166); */
+  color: white;
+}
+.title {
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.welcome {
+  font-weight: bold;
+  color: black;
+}
+input {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  width: 70%;
+}
+.flodesk_btn {
+  border-radius: 40px;
+  color: black;
+  background-color: white;
+  border: none;
+  margin: 15px;
+  padding: 10px 25px;
+  cursor: pointer;
+  border: 2px solid black;
+  transition: 0.12s;
+
+}
+.flodesk_btn:hover{
+    background-color: black;
+    color:#fff ;
+    border: 2px solid white;
+}
+.not_a_member {
+  color: grey;
+  font-size: 14px;
+}
+.privacy {
+  color: grey;
+  font-size: 13px;
+  padding: 0 30px;
+}
+
+/* css for scroll to top  */
+
+.scroll_to_top_link {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Show the link when user scrolls down */
+body.scrollable .scroll_to_top_link {
+  display: block;
+}
+
+.scroll_to_top_link:hover {
+  background-color: #0056b3;
+}
